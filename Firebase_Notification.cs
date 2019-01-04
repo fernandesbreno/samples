@@ -16,7 +16,8 @@ namespace ConsoleApp2
         {
             string title = "Esse é o titutlo";
             string body = "Essa é a mensagem da notificação";
-            var data = new { status_pedido = 1 };//identificador do status do pedido
+            //id e status do pedido  
+            var data = new { status_pedido = 1, id_status= "810aa3ed-2aa8-420d-b17f-a99100ef37c5" };
             //Token do dispositivo exemplo
             var tokens = new string[] { "e1vpHKJ6n2k:APA91bEHZSuKC0oGurKKzFNJoms2MtALGQpJdGfTYx8tDA55CmP2GESzDq_PhSjAAyAzgL9B0PuwluTl-9L_rkfVmLkgNlW2oW6UTlKEpBy4wnYSf-E5DDuS6o5D9zAZavU294amqFvE" };
 
