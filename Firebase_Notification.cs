@@ -78,19 +78,19 @@ namespace ConsoleApp2
 
     }
 
-
+    //Modelos
     public class Message
     {
-        public string[] registration_ids { get; set; }//Token
-        public string priority { get; set; }//Prioridade
-        public Notification notification { get; set; }//Notificacao
-        public object data { get; set; }//Status_pedido
+        public string[] registration_ids { get; set; }
+        public string priority { get; set; }
+        public Notification notification { get; set; }
+        public object data { get; set; }
     }
 
     public class Notification
     {
-        public string title { get; set; }//Titulo
-        public string text { get; set; }//Msg
+        public string title { get; set; }
+        public string text { get; set; }
     }
 }
 
